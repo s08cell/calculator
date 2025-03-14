@@ -1,0 +1,44 @@
+body
+{
+    background-color: black;
+}
+
+#outer_box{
+    height: 450px;
+    width: 250px;
+    background-color: rgb(241, 244, 244);
+    margin: 100px;
+}
+#inp{
+    margin: 10px 10px 5px 25px;
+    width:75% ;
+    height: 50px;
+}
+#number{
+   display: flex;
+   flex-wrap: wrap;
+    margin: 10px 0px 10px 35px;
+    /* justify-content: center; */
+}
+.but{
+    height: 55px;
+    width: 55px;
+    background-color: rgb(208, 198, 198);
+    margin:2px;
+    display: flex;
+    flex-direction: row;
+    padding:15px;
+    font-weight:500;
+    font-size: 20px;
+    border-radius: 6px;
+   
+}
+.but:active{
+    transform: scale(1.01);
+    color: rgb(62, 135, 199);
+    border-color: blue;
+    background-color: green;
+}
+#but0{
+    margin-left: 35px;
+}
